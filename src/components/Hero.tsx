@@ -26,12 +26,13 @@ const Hero: React.FC = () => (
             >
               Contact Me
             </a>
-            <a href="/src/assets/VICTOR_OGUNWEHIN_CV-0001.pdf" target="_blank" rel="noopener noreferrer"
+            <a href="/src/assets/VICTOR OGUNWEHINL_CV.pdf" target="_blank" rel="noopener noreferrer"
                 className="no-underline bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700"
             >
                 My Resume
             </a>
           </div>
+          <p className="italic text-xs dark:text-white">Open to consulting, contracts and remote</p>
         </div>
       </div>
     </section>

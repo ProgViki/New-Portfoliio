@@ -11,7 +11,7 @@ const About = () => (
          </p>
          <p className="mt-4 max-w-3xl mx-auto text-sm text-gray-900"> Skilled in multiple programming languages and
            modern frameworks such as React, React Native, TailwindCSS
-         and NestJs, and adept at building RESTful APIs, integrating databases, and ensuring seamless user
+         and NestJs, and adept at building RESTful APIs, integrating databases, hardware and embedded systems integration, and ensuring seamless user
           experiences. Demonstrates excellent problem-solving abilities and a keen attention to detail,
            with a track record of working collaboratively in agile environments to deliver high-quality
             software solutions. Committed to continuous learning and staying current with emerging 

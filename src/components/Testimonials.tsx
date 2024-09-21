@@ -12,6 +12,7 @@ const certifications: Certification[] = [
   { name: 'Complete SDLC', imageUrl: '/path/to/certB.jpg' },
   { name: 'NestJs Boot Camp', imageUrl: '/path/to/certC.jpg' },
   { name: 'Microservices with NodeJs', imageUrl: '/path/to/certD.jpg' },
+  { name: 'Full Native Android Dev ', imageUrl: '/path/to/certD.jpg' },
 
 
 ];
