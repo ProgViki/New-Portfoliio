@@ -3,7 +3,7 @@ import { projects } from "./dummyData";
 const Projects: React.FC = () => (
     <section id="projects" className="py-20 bg-gray-100 dark:bg-gray-800 transition-all duration-500">
       <h2 className="text-4xl font-semibold text-center animate-fadeIn dark:text-white">Projects</h2>
-      <div className="grid grid-cols-3 gap-4 p-6 mt-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6 mt-6">
         {projects.map((project, index) => (
           <div
             key={project.title}

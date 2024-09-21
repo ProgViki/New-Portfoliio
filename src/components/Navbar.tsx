@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
           </div>
           {/* Menu items for larger screens */}
         <div className="hidden md:flex space-x-8 items-center dark:text-white">
-          <Link to="projects" smooth={true} duration={500} className="nav-item">
+          <Link to="projects" smooth={true} duration={500} className="nav-item ">
             Projects
           </Link>
           <Link to="skills" smooth={true} duration={500} className="nav-item">
@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
       {/* Dropdown Menu for small screens */}
       <div
         className={classNames(
-          'flex flex-col md:hidden space-y-4 items-center bg-white dark:bg-gray-900 transition-all duration-300 ease-in-out',
+          'flex flex-col md:hidden space-y-4 items-center bg-white dark:bg-gray-900 transition-all duration-300 ease-in-out dark:text-white',
           {
             'h-0 opacity-0 overflow-hidden': !isMenuOpen,
             'h-auto opacity-100 py-4': isMenuOpen,

@@ -3,7 +3,7 @@ import { FacebookFilled, GithubFilled, InstagramFilled, LinkedinFilled, TwitterO
 
 const Footer = () => {
   return (
-    <footer className="flex justify-around items-center text-xs py-4 bg-gray-800 dark:bg-gray-900 text-white">
+    <footer className="flex justify-around items-center text-xs py-4 px-8 md:px-2 bg-gray-800 dark:bg-gray-900 text-white">
        <div>
        &copy; {new Date().getFullYear()} Victor Ogunwehin. All Rights Reserved.
        </div>

@@ -36,9 +36,10 @@ const Contact: React.FC = () => {
           {/* Name Field */}
           <Form.Item
             label="Your Name"
+            labelCol={{ className: 'text-blue-200 dark:text-white'  }}
             name="name"
             rules={[{ required: true, message: "Please enter your name!" }]}
-             className=" dark:text-white"
+             className="text-blue-200 dark:text-white"
           >
             <Input
               prefix={<UserOutlined className="site-form-item-icon" />}
@@ -50,12 +51,13 @@ const Contact: React.FC = () => {
           {/* Email Field */}
           <Form.Item
             label="Your Email"
+            labelCol={{ className: 'text-blue-200 dark:text-white' }}
             name="email"
             rules={[
               { required: true, message: "Please enter your email!" },
               { type: "email", message: "Please enter a valid email!" }
             ]}
-            className=" dark:text-white"
+            className="text-blue-200 dark:text-white"
           >
             <Input
               prefix={<MailOutlined className="site-form-item-icon" />}
@@ -68,8 +70,9 @@ const Contact: React.FC = () => {
           <Form.Item
             label="Your Message"
             name="message"
+            labelCol={{ className: 'text-blue-200 dark:text-white' }}
             // rules={[{ required: true, message: "Please enter your message!" }]}
-             className=" dark:text-white"
+             className=" text-blue-200 dark:text-white"
           >
             <TextArea
               rows={4}
@@ -83,7 +86,7 @@ const Contact: React.FC = () => {
             <Button
               type="primary"
               htmlType="submit"
-              className="w-full bg-blue-800 dark:bg-gray-600 dark:hover:bg-gray-400"
+              className="w-full bg-blue-800 dark:bg-gray-600 dark:hover:bg-gray-400 dark:text-blue-200"
             >
               Send Message
             </Button>

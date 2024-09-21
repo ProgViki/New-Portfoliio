@@ -1,3 +1,5 @@
+import { Button } from "antd";
+
 const Hero: React.FC = () => (
     <section className="h-screen flex flex-col justify-center items-center text-center pt-16 transition-all duration-700">
       <div className="flex flex-col md:flex-row items-center md:justify-between w-full max-w-5xl">
@@ -19,11 +21,15 @@ const Hero: React.FC = () => (
             Software Engineer | SDLC Expert
           </p>
           <div className="mt-6 flex items-center justify-center gap-2">
-            <a href="#contact" className="no-underline bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700">
+            <a href="#contact" 
+            className="no-underline bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700"
+            >
               Contact Me
             </a>
-            <a href="#contact" className="no-underline bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700">
-              My Resume
+            <a href="/src/assets/VICTOR_OGUNWEHIN_CV-0001.pdf" target="_blank" rel="noopener noreferrer"
+                className="no-underline bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700"
+            >
+                My Resume
             </a>
           </div>
         </div>

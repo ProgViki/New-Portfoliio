@@ -1,5 +1,7 @@
 const About = () => (
-    <section id="about" className="py-20 bg-gray-100 text-center ">
+
+
+    <section id="about" className="py-20 bg-gray-100 text-center px-10">
       <h2 className="text-4xl font-semibold">About Me</h2>
       <p className="mt-4 max-w-3xl mx-auto text-sm text-gray-900">
       Innovative and results-driven Software Engineer with extensive experience in the complete Software Development Lifecycle (SDLC),
