@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
  
@@ -36,9 +37,7 @@ const App: React.FC = () => {
       <Contact />
 
       {/* Footer */}
-      <footer className="text-center py-4 bg-gray-800 dark:bg-gray-900 text-white">
-        &copy; {new Date().getFullYear()} Victor Ogunwehin. All Rights Reserved.
-      </footer>
+      <Footer />
      </div>
   );
 };

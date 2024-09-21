@@ -4,7 +4,7 @@ const Hero: React.FC = () => (
         {/* Profile Picture */}
         <div className="md:w-1/2 mb-8 md:mb-0">
           <img
-            src="/public/images/ProfilePics.jpg"
+            src="/src/assets/ProfilePics.jpg"
             alt="Your Name"
             className="w-80 h-80 rounded-full object-cover mx-auto md:mx-0 shadow-lg transition-transform transform hover:scale-105 duration-300"
           />
@@ -16,11 +16,14 @@ const Hero: React.FC = () => (
             I'm Victor Ogunwehin
           </h1>
           <p className="mt-4 text-xl text-gray-700 dark:text-gray-300">
-            Full-stack Software Engineer | SDLC Expert
+            Software Engineer | SDLC Expert
           </p>
-          <div className="mt-6">
+          <div className="mt-6 flex items-center justify-center gap-2">
             <a href="#contact" className="no-underline bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700">
               Contact Me
+            </a>
+            <a href="#contact" className="no-underline bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700">
+              My Resume
             </a>
           </div>
         </div>

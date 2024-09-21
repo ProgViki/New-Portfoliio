@@ -31,18 +31,19 @@ const Contact: React.FC = () => {
           onFinish={onFinish}
           onFinishFailed={onFinishFailed}
           layout="vertical"
-          className="bg-white dark:bg-gray-900 p-8 rounded-lg shadow-lg"
+          className="bg-white dark:bg-gray-900 p-8 rounded-lg shadow-lg dark:text-white"
         >
           {/* Name Field */}
           <Form.Item
             label="Your Name"
             name="name"
             rules={[{ required: true, message: "Please enter your name!" }]}
+             className=" dark:text-white"
           >
             <Input
               prefix={<UserOutlined className="site-form-item-icon" />}
               placeholder="John Doe"
-              className="dark:bg-gray-700 dark:text-white"
+              className="dark:bg-gray-700 dark:text-gray-200"
             />
           </Form.Item>
 
@@ -54,11 +55,12 @@ const Contact: React.FC = () => {
               { required: true, message: "Please enter your email!" },
               { type: "email", message: "Please enter a valid email!" }
             ]}
+            className=" dark:text-white"
           >
             <Input
               prefix={<MailOutlined className="site-form-item-icon" />}
               placeholder="john.doe@example.com"
-              className="dark:bg-gray-700 dark:text-white"
+              className="dark:bg-gray-700 dark:text-gray-200"
             />
           </Form.Item>
 
@@ -66,7 +68,8 @@ const Contact: React.FC = () => {
           <Form.Item
             label="Your Message"
             name="message"
-            rules={[{ required: true, message: "Please enter your message!" }]}
+            // rules={[{ required: true, message: "Please enter your message!" }]}
+             className=" dark:text-white"
           >
             <TextArea
               rows={4}
@@ -80,7 +83,7 @@ const Contact: React.FC = () => {
             <Button
               type="primary"
               htmlType="submit"
-              className="w-full bg-blue-500 dark:bg-blue-600 dark:hover:bg-blue-700"
+              className="w-full bg-blue-800 dark:bg-gray-600 dark:hover:bg-gray-400"
             >
               Send Message
             </Button>
