@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
           onFinish={onFinish}
           onFinishFailed={onFinishFailed}
           layout="vertical"
-          className="bg-white dark:bg-gray-900 p-8 rounded-lg shadow-lg dark:text-white"
+          className="bg-white dark:bg-blue-200 p-8 rounded-lg shadow-lg"
         >
           {/* Name Field */}
           <Form.Item

@@ -7,14 +7,14 @@ const Hero: React.FC = () => (
         <div className="md:w-1/2 mb-8 md:mb-0">
           <img
             src="/src/assets/ProfilePics.jpg"
-            alt="Your Name"
+            alt="My BgPix"
             className="w-80 h-80 rounded-full object-cover mx-auto md:mx-0 shadow-lg transition-transform transform hover:scale-105 duration-300"
           />
         </div>
   
         {/* Hero Text */}
         <div className="md:w-1/2">
-          <h1 className="text-6xl font-bold text-gray-900 dark:text-white">
+          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white">
             I'm Victor Ogunwehin
           </h1>
           <p className="mt-4 text-xl text-gray-700 dark:text-gray-300">
@@ -32,7 +32,7 @@ const Hero: React.FC = () => (
                 My Resume
             </a>
           </div>
-          <p className="italic text-xs dark:text-white">Open to consulting, contracts and remote</p>
+          <p className="italic text-sm dark:text-white">Open to consulting, contracts and remote</p>
         </div>
       </div>
     </section>

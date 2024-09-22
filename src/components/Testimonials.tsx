@@ -38,7 +38,7 @@ const Testimonials:React.FC = () => {
 return (
   <section id="testimonials" className="py-20 dark:text-white">
       <h2 className="text-4xl font-semibold text-center ">Testimonials & Certifications</h2>
-     <div className="flex justify-around p-6">
+     <div className="flex flex-col justify-center items-center md:flex md:flex-row md:justify-around p-2">
      <div className=" ">
         <blockquote className="max-w-xs">
           <p>"Amazing work! Delivered the project on time."</p>
@@ -48,9 +48,9 @@ return (
         </blockquote>
       </div>
       <div>
-        <p>View Certifications</p>
+        <p className="text-center font-bold">View Certifications</p>
         <Select
-        className="w-[100px] md:w-[200px] lg:w-[300px]"
+        className="w-[200px] md:w-[200px] lg:w-[300px]"
         placeholder="Select a certification"
         onChange={handleSelect}
       >
