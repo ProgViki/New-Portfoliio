@@ -1,4 +1,3 @@
-import { Button } from "antd";
 
 const Hero: React.FC = () => (
     <section className="h-screen flex flex-col justify-center items-center text-center pt-16 transition-all duration-700">
