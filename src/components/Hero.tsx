@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur-2xl opacity-20 group-hover:opacity-40 transition-opacity"></div>
               <img
-                src="/src/assets/ProfilePics.jpg"
+                 src="/assets/ProfilePics.jpg"
                 alt="Victor Ogunwehin"
                 className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover relative z-10 border-4 border-white dark:border-gray-800 shadow-2xl"
               />
@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
                 Get In Touch
               </a>
               <a
-                href="/src/assets/VICTOR_OGUNWEHIN_CV.pdf"
+                 href="/assets/VICTOR_OGUNWEHIN_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3 border-2 border-gray-300 dark:border-gray-600 rounded-full hover:border-blue-600 dark:hover:border-blue-400 transition-all hover:scale-105 no-underline font-medium text-gray-700 dark:text-gray-300"
