@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { MenuOutlined, CloseOutlined, HomeOutlined, UserOutlined, CodeOutlined, ProjectOutlined, MessageOutlined, StarOutlined } from '@ant-design/icons';
+import { HomeOutlined, UserOutlined, CodeOutlined, ProjectOutlined, MessageOutlined, StarOutlined } from '@ant-design/icons';
 import { Switch } from 'antd';
 import { Link } from 'react-scroll';
 import { useDarkMode } from "../hooks/useDarkMode";

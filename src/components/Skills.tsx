@@ -34,7 +34,7 @@ const Skills: React.FC = () => {
   // Animate skill bars when in view
   useEffect(() => {
     if (inView) {
-      const timeouts: NodeJS.Timeout[] = [];
+      const timeouts: ReturnType<typeof setTimeout>[] = [];
       enhancedSkills.forEach((category, catIndex) => {
         category.skills.forEach((skill, skillIndex) => {
           const timeout = setTimeout(() => {
@@ -48,7 +48,7 @@ const Skills: React.FC = () => {
       });
       return () => timeouts.forEach(t => clearTimeout(t));
     }
-  }, [inView]);
+  }, [inView, enhancedSkills]);
 
   return (
     <section id="skills" className="py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 relative overflow-hidden">
@@ -169,7 +169,3 @@ const Skills: React.FC = () => {
 };
 
 export default Skills;
-
-
-
-

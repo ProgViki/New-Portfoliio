@@ -1,4 +1,3 @@
-import React, { useEffect, useRef, useState } from 'react';
 import { CheckCircleOutlined, CodeOutlined, TeamOutlined, RocketOutlined } from '@ant-design/icons';
 import { useInView } from 'react-intersection-observer';
 
