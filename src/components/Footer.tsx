@@ -7,25 +7,25 @@ const Footer: React.FC = () => {
   const socialLinks = [
     { 
       icon: <GithubOutlined className="text-xl" />, 
-      href: "https://github.com",
+      href: "https://github.com/ProgViki",
       label: "GitHub",
       color: "hover:text-gray-400"
     },
     { 
       icon: <LinkedinOutlined className="text-xl" />, 
-      href: "https://linkedin.com",
+      href: "https://linkedin.comin/ogunwehin-victor",
       label: "LinkedIn",
       color: "hover:text-blue-400"
     },
     { 
       icon: <TwitterOutlined className="text-xl" />, 
-      href: "https://twitter.com",
+      href: "https://x.com/VictorOgunwehin",
       label: "Twitter",
       color: "hover:text-sky-400"
     },
     { 
       icon: <FacebookOutlined className="text-xl" />, 
-      href: "https://facebook.com",
+      href: "https://facebook.com/ogunwehin-victor",
       label: "Facebook",
       color: "hover:text-blue-500"
     },
